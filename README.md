@@ -1,5 +1,5 @@
 # gotranseq-docker
-[![Docker Image CI](https://github.com/adeslatt/gotranseq-docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/adeslatt/gotranseq-docker/actions/workflows/docker-image.yml)
+[![Docker Image CI](https://github.com/adeslatt/gotranseq-docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/adeslatt/gotranseq-docker/actions/workflows/docker-image.yml)[![Docker](https://github.com/adeslatt/gotranseq-docker/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/adeslatt/gotranseq-docker/actions/workflows/docker-publish.yml)
 
 #Container for go-transeq
 
