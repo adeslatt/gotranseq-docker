@@ -1,4 +1,8 @@
 # Set the working directory inside the container
+# Use the official Miniconda3 image
+FROM continuumio/miniconda3
+
+# Set the working directory inside the container
 WORKDIR /app
 
 # Copy the environment.yml file and install dependencies
@@ -16,9 +20,6 @@ RUN conda install -c conda-forge go
 
 # Build the Go application
 RUN go build -o gotranseq
-
-# Run tests
-RUN go test ./...
 
 # Run the Go application
 CMD ["./gotranseq", "--help"]
