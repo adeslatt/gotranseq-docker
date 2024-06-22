@@ -1,0 +1,5 @@
+name: gotranseq
+channels:
+  - conda-forge
+dependencies:
+  - go
